@@ -1,0 +1,19 @@
+{
+  "name": "designmode",
+  "version": "1.0.0",
+  "description": "design-mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "c:fp": "tsc ./src/design_mode/FactoryPattern.ts",
+    "c:abp": "tsc ./src/design_mode/AbstractFactoryPattern.ts",
+    "c": "tsc ./src/index.ts",
+    "index": "node ./src/index.js"
+  },
+  "keywords": [
+    "design"
+  ],
+  "author": "zty",
+  "license": "ISC"
+}
