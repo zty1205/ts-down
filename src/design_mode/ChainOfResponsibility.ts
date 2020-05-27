@@ -1,5 +1,18 @@
 // 责任链模式
 
+// 基本例子
+abstract class Handler {
+  next: Handler
+  constructor(n: Handler) {
+    this.next = n
+  }
+  setNext(n: Handler) {
+    this.next = n
+  }
+  abstract handle() : void
+}
+
+
 // 改造后
 // export abstract class BaseHandler {
 //   constructor() {}
